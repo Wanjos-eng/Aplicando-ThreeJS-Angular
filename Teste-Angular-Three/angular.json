@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Manipulando-Objetos3D": {
+    "Teste-Angular-Three": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/manipulando-objetos3-d",
+            "outputPath": "dist/teste-angular-three",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -32,12 +32,7 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [],
-            "server": "src/main.server.ts",
-            "prerender": true,
-            "ssr": {
-              "entry": "server.ts"
-            }
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -67,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Manipulando-Objetos3D:build:production"
+              "buildTarget": "Teste-Angular-Three:build:production"
             },
             "development": {
-              "buildTarget": "Manipulando-Objetos3D:build:development"
+              "buildTarget": "Teste-Angular-Three:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -78,7 +73,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "Manipulando-Objetos3D:build"
+            "buildTarget": "Teste-Angular-Three:build"
           }
         },
         "test": {
@@ -104,6 +99,6 @@
     }
   },
   "cli": {
-    "analytics": "dfa9e117-f911-4c7e-9963-43100c84f627"
+    "analytics": "c019ee96-1492-4846-95f1-cb7ed6f4053a"
   }
 }
